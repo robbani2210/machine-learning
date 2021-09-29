@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, export_text, export_graphviz
 from sklearn.preprocessing import StandardScaler
-# from sklearn.externals.six import StringIO
-# import pydotplus
+from six import StringIO
+import pydotplus
 from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score
